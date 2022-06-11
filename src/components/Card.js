@@ -1,6 +1,12 @@
 import React from "react";
 
-import profile from "../assets/images/memoji.jpg";
+import profile from "../assets/images/memoji-01.png";
+
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 function Card() {
   return (
@@ -39,30 +45,48 @@ function Card() {
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
               href="https://github.com/SalemNabeelSalem"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaGithub />
               <span class="sr-only">Github</span>
             </a>
 
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-red-600 hover:bg-red-600 rounded-full hover:text-white transition-colors duration-300"
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-800 hover:bg-blue-700 rounded-full hover:text-white transition-colors duration-300"
               href="https://www.linkedin.com/in/isalem-nabeel"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <FaYoutube />
-              <span class="sr-only">YouTube</span>
+              <FaLinkedin />
+              <span class="sr-only">Linkedin</span>
+            </a>
+
+            <a
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-700 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
+              href="https://www.facebook.com/iSalemNabeel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook />
+              <span class="sr-only">Facebook</span>
             </a>
 
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
               href="https://twitter.com/isalem_nabeel"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaTwitter />
               <span class="sr-only">Twitter</span>
             </a>
 
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-yellow-500 hover:bg-yellow-500 rounded-full hover:text-white transition-colors duration-300"
               href="https://mailto:isalemnabeelsalem@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaRegEnvelope />
               <span class="sr-only">Email</span>
