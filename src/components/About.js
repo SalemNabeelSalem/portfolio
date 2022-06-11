@@ -29,7 +29,7 @@ function About() {
         </p>
       </div>
 
-      <ScrollIntoView selector="">
+      <ScrollIntoView selector="#techs">
         <div className="mx-auto p-20">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 
 import Card from "./components/Card";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <Card />
 
       <About />
+
+      <Skills />
 
       <Footer />
     </div>
