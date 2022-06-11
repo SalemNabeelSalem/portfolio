@@ -2,13 +2,12 @@
   "name": "portfolio-of-salem-nabeel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SalemNabeelSalem/portofilo.git",
+  "homepage": "http://salemnabeelsalem.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
@@ -44,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.2"
   }
