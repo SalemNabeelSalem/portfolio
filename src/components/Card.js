@@ -2,11 +2,13 @@ import React from "react";
 
 import profile from "../assets/images/memoji-01.png";
 
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaRegEnvelope } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaTwitter,
+  FaRegEnvelope,
+} from "react-icons/fa";
 
 function Card() {
   return (
@@ -22,23 +24,12 @@ function Card() {
 
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl font-semibold text-gray-900">
-            Salem Nabeel ⚔
+            Salem Nabeel
           </p>
 
           <p className="text-xs sm:text-base text-gray-700 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
-            I am passionate about developing highly scalable, resilient
-            applications. I love everything from the{" "}
-            <span className="font-semibold">Databases</span>,{" "}
-            <span className="font-semibold">Testing</span>, and{" "}
-            <span className="font-semibold">DevOps</span> to{" "}
-            <span className="font-semibold">Microservices</span> (
-            <span className="font-semibold">Kubernetes</span>,{" "}
-            <span className="font-semibold">Docker</span>, etc), to the{" "}
-            <span className="font-semibold">Frontend</span> and{" "}
-            <span className="font-semibold">Backend</span>. I find it amazing
-            how all pieces work together to provide a fast and pleasurable
-            experience to end-users, mainly because they have no clue how
-            complex that "simple" app is.
+            Software Engineer Specializing in Backend Development of Web
+            Applications
           </p>
 
           <div className="flex align-center justify-center mt-4">
