@@ -2,6 +2,7 @@ import React from "react";
 
 import Card from "./components/Card";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Card />
 
       <About />
+
+      <Footer />
     </div>
   );
 }
