@@ -1,14 +1,11 @@
+import React from "react";
+
+import Card from "./components/Card";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div
-          class="p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800"
-          role="alert"
-        >
-          <span class="font-medium">Info alert!</span> Hello, world!
-        </div>
-      </header>
+    <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
+      <Card />
     </div>
   );
 }
