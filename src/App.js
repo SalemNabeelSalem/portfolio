@@ -4,6 +4,7 @@ import Card from "./components/Card";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import ContactMe from "./components/Contact";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <About />
 
       <Skills />
+
+      <ContactMe />
 
       <Footer />
     </div>
