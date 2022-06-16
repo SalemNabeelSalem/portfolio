@@ -2,7 +2,7 @@ import React from "react";
 
 import { SiSpringboot, SiNodedotjs, SiExpress } from "react-icons/si";
 import { FaVuejs, FaJenkins, FaDocker, FaAws } from "react-icons/fa";
-// import { FaReact } from "react-icons/fa";
+// import { FaVuejs, FaReact, FaJenkins, FaDocker, FaAws } from "react-icons/fa";
 // import { SiTailwindcss } from "react-icons/si";
 // import { SiJavascript } from "react-icons/si";
 
