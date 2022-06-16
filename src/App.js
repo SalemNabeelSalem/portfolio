@@ -14,6 +14,8 @@ function App() {
     AOS.init({
       once: true,
     });
+
+    document.title = "Salem's Portfolio";
   });
 
   return (
