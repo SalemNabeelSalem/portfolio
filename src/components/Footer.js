@@ -54,7 +54,7 @@ function Footer() {
 
         <a
           className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-yellow-500 hover:bg-yellow-500 rounded-full hover:text-white transition-colors duration-300"
-          href="https://mailto:isalemnabeelsalem@gmail.com"
+          href="mailto:isalemnabeelsalem@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
